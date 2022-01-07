@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  #logo{
+      width: 75px;
+  }
+  
+  html {
+      scroll-behavior: smooth;
+  }
+  .nav-menu a{
+    /*color: white;*/
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 22px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+      cursor: pointer;
+  }
+  .active{
+    color:'#23d3de'
+  }
+  .nav-link{
+      color: white;
+      text-decoration: none;
+      margin-right: 30px;
+      font-size: 22px;
+      transition: all 0.3s ease;
+      text-transform: capitalize;
+      cursor: pointer;
+  }
+  
+  .nav-menu a:focus{
+    color: #F69E1A;
+  }
+  
+  .active {
+      color: #f69e1a;
+  }
+  
+  .social-icon1 a,.social-icon2 a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  .res-nav{
+    display: none;
+  }
+  @media screen and (max-width:970px){
+    .max-width{
+        width: 100%;
+        /* border-bottom: none; */
+    }
+  }
+  @media screen and (max-width:950px) {
+    .res-nav{
+      display: block;
+    }
+    #right-nav{
+      position: fixed;
+      top: 0;
+      flex-direction: column;
+      background-color: #1d1e60;
+      width: 70%;
+      height: 100%;
+      transition: all 0.3s ease;
+      margin: 0px;
+    }
+    .nav-menu{
+      flex-direction: column;
+      margin-bottom: 30px;
+    }
+    .nav-link{
+      margin: 30px;
+      text-align: center;
+    }
+    .social-icon1{
+        display: none;
+    }
+    .social-icon2{
+        display: block;
+    }
+  }
+  #cornerRight,#cornerLeft{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: contain;
+  }
+  #cornerLeft{
+    right: 0;
+  }
+  #Group4{
+    position: absolute;
+    width: 144px;
+    height: 126px;
+    top: 840px;
+    left: 100px;
+  }
+  #Group5{
+    position: absolute;
+    width: 144px;
+    height: 126px;
+    top: 60%;
+    left: 100px;
+  }
+  #Group6{
+    position: absolute;
+    width: 144px;
+    height: 126px;
+    top: 200px;
+    right: 100px;
+  }
+  #Group7{
+    position: absolute;
+    width: 144px;
+    height: 126px;
+    top: 45%;
+    right: 100px;
+  }
